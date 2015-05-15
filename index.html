@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Framework Test Page</title>
+    <!--This stylesheet imports bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--This stylesheet makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.-->
+    <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--This stylesheet imports the font LATO-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="images/favicon-32x32.ico">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="logo img-responsive" src="images/triathlonlogo.png" alt="triathlon logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1>Les Ansley</h1>
+          <h4>Triathlon Mania</h4>
+        </div>
+      </div>
+      <div class="row">
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class= "feature-image img-responsive" src="images/triathlon-cropped.jpg" alt="triathlon" data-toggle="modal" data-target="#triathlon">
+        </div>
+      </div>
+      <div class="row">
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Disciplines</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class= "feature-image img-responsive" src="images/swim.jpg" alt="swim" data-toggle="modal" data-target="#swim">
+          <h3 class="swim-text modal-link" data-toggle="modal" data-target="#swim">Swim</h3>
+        </div>
+        <div class="col-md-4">
+          <img class= "feature-image img-responsive" src="images/bike.jpg" alt="bike" data-toggle="modal" data-target="#bike">
+          <h3 class="bike-text modal-link" data-toggle="modal" data-target="#bike">Bike</h3>
+        </div>
+        <div class="col-md-4">
+          <img class= "feature-image img-responsive" src="images/run.jpg" alt="run" data-toggle="modal" data-target="#run">
+          <h3 class="run-text modal-link" data-toggle="modal" data-target="#run">Run</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 accreditation">
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="triathlon" tabindex="-1" role="dialog" aria-labelledby="ModalTriathlon" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title swim-text" id="ModalTriathlon">Triathlon</h3>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive feature-image" src="images/triathlon-full.jpg" alt="swim bike run">
+            <div class="descriptor-text">
+              Triathlons are performed over a variety of distances. The most common (in ascending order of distance (km) are sprint (0.75/20/5), Olympic (1.5/40/10), long course (2.5/80/20) and Ironman (3.8/180/42) triathlons.
+              <br>Swimming, cycling and running contribute roughly 15%, 55% and 30%, respectively, to the total duration of an Olympic distance triathlon. 
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="swim" tabindex="-2" role="dialog" aria-labelledby="ModalSwim" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title swim-text" id="ModalSwim">Swim</h3>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/swim.jpg" alt="swimmer">
+            <div class="descriptor-text">
+              Swimming is the first leg of a standard triathlon and is  performed over distances between 750 m and 3.8 km. Wetsuits are permitted in open water swims when the water temperature is below 22&deg;C.
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="bike" tabindex="-3" role="dialog" aria-labelledby="ModalBike" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="bike-text modal-title" id="ModalBike">Bike</h3>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/bike.jpg" alt="bike">
+            <div class="accreditation">
+              <a target="_blank" href="http://www.shutterstock.com/gallery-873643p1.html?cr=00&amp;pl=edit-00">Stefan Holm</a> / 
+              <a target="_blank" href="http://www.shutterstock.com/editorial?cr=00&amp;pl=edit-00">Shutterstock.com</a>
+            </div>
+            <div class="descriptor-text">
+              The bike leg follows the transition from the water. For age-group athletes drafting on the bike is illegal in triathlons over all distances. However elite competitors are permitted to draft during the shorter triathlons up to and including Olympic distance.
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="run" tabindex="-4" role="dialog" aria-labelledby="ModalRun" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="run-text modal-title" id="ModalRun">Run</h3>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/run.jpg" alt="runner">
+            <div class="descriptor-text">
+              The run is the last leg of a triathlon and usually decides the race. In Ironman&trade; triathlons the run is competed over a full marathon distance of 42 km.
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

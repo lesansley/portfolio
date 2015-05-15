@@ -1,0 +1,61 @@
+
+* {
+	/*border: 1px solid red !important;*/
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+}
+
+h1 {
+	font-weight: 100;
+}
+
+h2 {
+	font-weight: 400;
+	color: #BCBBBB;
+	padding-bottom: 20px;
+}
+
+h3, h4 {
+	font-weight: 300;
+}
+
+.modal-link {
+	cursor: pointer;
+	padding-bottom: 20px;
+}
+
+.logo {
+	max-height: 100px;
+	max-width: 344px;
+	padding-top: 20px	;
+}
+
+.feature-image {
+	max-height: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+
+.swim-text {
+	color: #00609F;
+}
+
+.bike-text {
+	color: #DA0614;
+}
+
+.run-text{
+	color: #008155;
+}
+
+.accreditation {
+	text-align: right;
+}
+
+.descriptor-text {
+	color: black;
+}
+
+hr {
+	border-width: 2px;
+}
