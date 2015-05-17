@@ -1,14 +1,10 @@
-* {
-	/*border: 1px solid red !important;*/
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-}
+/* {
+	border: 1px solid red !important;
+}*/
 
 body {
 	font-family: 'Lato', sans-serif;
-	color: #473C39;
+	color: #473c39;
 }
 
 h1 {
@@ -70,5 +66,11 @@ h4 {
 
 hr {
 	border-width: 2px;
-	border-color: #473C39;
+	border-color: #473c39;
+}
+
+img,
+object,
+video {
+	max-width: 100%;
 }
