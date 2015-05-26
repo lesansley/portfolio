@@ -239,7 +239,11 @@ video {
 }
 
 @media only screen and (min-width: 1009px) {
-
+	.container {
+		max-width: 994px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 .modal-open {
