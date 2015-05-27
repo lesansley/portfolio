@@ -56,6 +56,7 @@ figure {
 
 .logo-text {
 	padding-right: 20px;
+	align-self: flex-end;
 }
 
 .logo-title {
@@ -236,6 +237,9 @@ video {
 		padding-left: 20px;
 	}
 
+	.header-logo {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 1009px) {
