@@ -18,12 +18,16 @@ body {
 	min-width: 262px;
 }
 
-.row {
+.flex-wrap {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+
+.row {
 	padding-left: 20px;
 	padding-right: 20px;
 	width: 100%;
