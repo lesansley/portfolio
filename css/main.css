@@ -14,6 +14,10 @@ body {
 	color: #473c39;
 }
 
+#nav {
+	background-color: black;
+}
+
 .container {
 	min-width: 262px;
 }
@@ -51,7 +55,7 @@ figure {
 	width: 100%;
 	max-width: 300px;
 	min-width: 140px;
-	padding-left: 20px;	
+	padding-left: 20px;
 }
 
 .logo-text {
@@ -222,7 +226,7 @@ video {
 		width: 100%;
 		min-width: 166px;
 	}
-	
+
 	.row-header,
 	.row-disciplines {
 		display: block;
